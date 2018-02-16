@@ -3,6 +3,7 @@ require_once 'model/DB.php';
 require_once 'model/RolesDB.php';
 require_once 'model/UserDB.php';
 require_once 'model/Roles_UserDB.php';
+echo "Abdoulaye GAYE";
 if(isset($_GET['page'])){
     switch($_GET['page']){
         case 'adduser':
